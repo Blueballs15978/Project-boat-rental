@@ -1,0 +1,62 @@
+/* Step3.css */
+.step3-container {
+    background-image: url('/images/beach-background.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .step3-form {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2.5rem;
+    border-radius: 1.25rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .step3-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #0c4a6e;
+  }
+  
+  .step3-input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    border: 2px solid #bae6fd;
+    border-radius: 0.75rem;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.2s ease;
+    color: #1e293b; /* สีเทาเข้ม หรือเปลี่ยนเป็นสีอื่นที่ต้องการได้ */
+  }
+  
+  
+  .step3-input:focus {
+    border-color: #38bdf8;
+  }
+  
+  .step3-button {
+    background-color: #0ea5e9;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 9999px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+  }
+  
+  .step3-button:hover {
+    background-color: #0284c7;
+    transform: translateY(-2px);
+  }
+  
